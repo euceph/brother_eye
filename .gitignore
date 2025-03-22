@@ -1,0 +1,17 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.py[cod]
+*$py.class
+.venv/
+*.log
+
+# Virtual environments
+.venv
+.idea
+.DS_Store
+.env
+prompt.txt

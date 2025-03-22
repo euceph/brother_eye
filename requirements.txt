@@ -1,0 +1,11 @@
+spacy>=3.5.0,<3.8.0
+textual>=0.27.0
+python-weather>=1.0.0
+SpeechRecognition>=3.10.0
+pocketsphinx>=0.1.15
+thinc>=8.2.1
+numpy>=1.24.0,<2.0.0
+pydantic>=1.8.0,<2.0.0
+pyaudio>=0.2.10
+requests>=2.32.3
+setuptools>=77.0.3

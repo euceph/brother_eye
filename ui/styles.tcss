@@ -1,0 +1,93 @@
+/* Base app styling */
+Screen {
+    layout: grid;
+    background: $surface;
+}
+
+/* Header styling */
+Header {
+    background: $primary-darken-1;
+    color: $text;
+    height: 1;
+}
+
+/* Main layout containers */
+#app-container {
+    width: 100%;
+    height: 100%;
+    layout: grid;
+    grid-size: 1 2;
+    grid-rows: auto 1fr;
+}
+
+/* Status panel styling */
+#status-panel {
+    height: auto;
+    border-bottom: $primary-darken-2;
+    background: $surface-darken-1;
+}
+
+#status-bar {
+    height: auto;
+    align: center middle;
+    padding: 0;
+}
+
+/* Response area styling */
+#response-container {
+    height: 100%;
+    padding: 0;
+}
+
+#response-area {
+    background: $surface-darken-1;
+    color: $text;
+    border: $primary-darken-2;
+    width: 100%;
+    height: 100%;
+    padding: 1 2;
+    margin: 0;
+    overflow-y: auto;
+}
+
+/* Listening indicator styling */
+#listening-indicator {
+    width: 100%;
+    height: auto;
+    content-align: center middle;
+    text-style: bold;
+    padding: 1;
+    margin: 1 0;
+}
+
+/* Status-based styling */
+.listening {
+    color: $success;
+    background: $surface-darken-2;
+}
+
+.processing {
+    color: $warning;
+    background: $surface-darken-2;
+}
+
+.error {
+    color: $error;
+    background: $surface-darken-2;
+}
+
+.idle {
+    color: $text;
+    background: $surface-darken-2;
+}
+
+.wake-word {
+    color: $accent;
+    background: $surface-darken-2;
+}
+
+/* Footer styling */
+Footer {
+    background: $primary-darken-1;
+    color: $foreground-darken-2;
+}
